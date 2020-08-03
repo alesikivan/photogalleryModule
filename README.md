@@ -1,11 +1,24 @@
-# Moving migrations to project root 
-Example: Yii2 => basic/migrations
+### Moving migrations to project root 
 
-# Start migration 
+```php
+Example: Yii2 => basic/migrations
+```
+
+### Start migration 
 yii migrate (yii migrate/fresh)
 
-# Bootstrap connection
-basic/config/web: 'bootstrap' => ['log', 'photo']
-
-# Module installer
-basic/config/web: 'modules' => ['photo' => ['class' => 'app\modules\photo\Module']]
+### Bootstrap connection
+basic/config/web:
+```php
+'bootstrap' => ['log', 'photo']
+```
+### Module installer
+basic/config/web: 
+```php
+'modules' => 
+  [
+    'photo' => [
+      'class' => 'app\modules\photo\Module'
+      ]
+  ]
+```
