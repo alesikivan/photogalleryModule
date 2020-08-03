@@ -1,0 +1,97 @@
+nav.nav {
+	width: 100px;
+	border: 1px solid #378995;
+	background-color: #42b4c0;
+}
+
+nav.nav .menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+}
+
+.menu a:hover {
+	background-color: #3aa3ad;
+}
+
+.menu p {
+	color: white;
+	text-decoration: none;
+	display: flex;
+     padding: 10px 0 0 0;
+     cursor: pointer;
+}
+
+.menu p:hover {
+	background-color: #3aa3ad;
+}
+.sub-menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: none;
+}
+
+.dropdown-item:hover .sub-menu {
+	display: block;
+	position: absolute;
+	background-color: #3aa3ad;
+	width: 180px;
+}
+
+.sub-menu a:hover {
+	background-color: #42b4c0;
+}
+
+
+.sub-menu2 {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: none;
+}
+
+.dropdown-item2:hover .sub-menu2 {
+	display: block;
+	position: absolute;
+	background-color: #3aa3ad;
+	width: 180px;
+}
+
+.sub-menu2 a:hover {
+	background-color: #42b4c0;
+}
+
+table, tr, td, th {
+
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+
+.blue, .green, .red{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+img{
+   height: 50px;
+   width: 50px;
+
+}
+th.special{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

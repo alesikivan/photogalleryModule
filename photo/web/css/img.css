@@ -1,0 +1,27 @@
+.grid{
+     /* border: 1px solid red; */
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.grid-item{
+     border: 3px dashed #67D8EF;
+     height: 400px;
+     width: 400px;
+     margin: 10px;
+}
+.info{
+     /* border: 1px solid green; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 1.5em;
+}
+
+.grid-item:hover{
+     transition: 0.3s;
+     border: 3px dashed #E7DB74;
+}

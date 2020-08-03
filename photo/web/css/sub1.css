@@ -1,0 +1,37 @@
+
+
+.main{
+     /* border:1px solid red; */
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+.block{
+     height: 200px;
+     width: 200px;
+     background:linear-gradient(150deg, rgb(136,211,206) 0%, rgb(110,69,226));
+     opacity:0.8;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     transition: 0.5s;
+}
+
+/* background:linear-gradient(150deg, rgb(136,211,206) 0%, rgb(110,69,226));
+opacity:0.8; */
+
+.inside{
+     display: flex;
+     align-self: flex-end;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     align-self: center;
+     font-size: 2em;
+}
+.block:hover{
+     border-radius: 20px;
+     transition: 0.5s;
+}
